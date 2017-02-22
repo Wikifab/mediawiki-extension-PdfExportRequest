@@ -1,0 +1,7 @@
+{
+    "name": "wikifab/PdfExportRequest",
+    "description": "This is a mediawiki extension to export a single page to PDF.",
+    "type": "mediawiki-extension",
+    "require": {
+    }
+}
