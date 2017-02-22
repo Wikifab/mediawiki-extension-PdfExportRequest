@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vks"
+		]
+	},
+	"pdf_print_link": "Vytisknout jako PDF",
+	"pdf_print_text": "Zadejte titulek stránky, kterou chcete vyexportovat do PDF",
+	"pdf_submit": "Vytvořit PDF",
+	"pdf_portrait": "Na výšku",
+	"pdf_landscape": "Na šířku",
+	"pdf_pass_protect_label": "Ochrana heslem",
+	"pdf_pass_protect_yes": "ano",
+	"pdf_pass_protect_no": "ne",
+	"pdf_owner_pass_label": "Heslo vlastníka",
+	"pdf_user_pass_label": "Uživatelské heslo",
+	"pdf_perm_print_label": "Povolit tisk?",
+	"pdf_perm_print_yes": "ano",
+	"pdf_perm_print_no": "ne",
+	"pdf_perm_modify_label": "Povolit změny?",
+	"pdf_perm_modify_yes": "ano",
+	"pdf_perm_modify_no": "ne",
+	"pdf_perm_copy_label": "Povolit kopírování textu?",
+	"pdf_perm_copy_yes": "ano",
+	"pdf_perm_copy_no": "ne",
+	"pdf_perm_annotate_label": "Povolit vkládání poznámek?",
+	"pdf_perm_annotate_yes": "ano",
+	"pdf_perm_annotate_no": "ne",
+	"pdf_size": "Velikost papíru",
+	"pdf_filename": "Název souboru"
+}

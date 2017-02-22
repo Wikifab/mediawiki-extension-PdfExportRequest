@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"pdfexport-desc": "Reproduz una páxina como PDF",
+	"pdfprint": "Esportación a PDF",
+	"pdfprint_error": "Esportación a PDF - Error",
+	"pdf_fontface_label": "Tipografía",
+	"pdf_fontsize_label": "Tamañu de lletra",
+	"pdf_margins_label": "Márxenes (amuesense'n milímetros)",
+	"pdf_margins_label_top": "superior",
+	"pdf_margins_label_sides": "llaterales",
+	"pdf_margins_label_bottom": "inferior",
+	"pdf_print_link": "Imprimir como PDF",
+	"pdf_print_text": "Escriba'l títulu de la páxina que quier esportar a PDF",
+	"pdf_submit": "Crear PDF",
+	"pdf_portrait": "Retratu",
+	"pdf_landscape": "Apaisáu",
+	"pdf_pass_protect_label": "Proteición por contraseña",
+	"pdf_pass_protect_yes": "sí",
+	"pdf_pass_protect_no": "non",
+	"pdf_owner_pass_label": "Contraseña del propietariu",
+	"pdf_user_pass_label": "Contraseña del usuariu",
+	"pdf_perm_print_label": "¿Permitir la impresión?",
+	"pdf_perm_print_yes": "sí",
+	"pdf_perm_print_no": "non",
+	"pdf_perm_modify_label": "¿Permitir la edición?",
+	"pdf_perm_modify_yes": "sí",
+	"pdf_perm_modify_no": "non",
+	"pdf_perm_copy_label": "¿Permitir copiar testu?",
+	"pdf_perm_copy_yes": "sí",
+	"pdf_perm_copy_no": "non",
+	"pdf_perm_annotate_label": "¿Permitir anotaciones?",
+	"pdf_perm_annotate_yes": "sí",
+	"pdf_perm_annotate_no": "non",
+	"pdf_size": "Tamañu del papel",
+	"pdf_filename": "Nome del ficheru",
+	"pdf_export_no_converter_found": "Nun s'alcontró dengún programa pa conversión a PDF. Instale PrinceXML, DomPdf o HTMLDoc.",
+	"pdf_prince_error_not_installed": "El programa de creación de PDF PrinceXML nun ta instaláu correutamente. Pongase'n contautu con un alministrador.",
+	"pdf_prince_error": "El software de creación de PDF nun pudo crear el ficheru PDF. Si se repitiera'l problema, pongase'n contautu con un alministrador."
+}

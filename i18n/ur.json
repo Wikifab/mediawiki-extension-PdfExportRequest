@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"පසිඳු කාවින්ද"
+		]
+	},
+	"pdf_margins_label_top": "سب سے اوپر",
+	"pdf_portrait": "پورٹریٹ",
+	"pdf_landscape": "زمین کی تزئین کی",
+	"pdf_pass_protect_label": "پاس ورڈ کی حفاظت",
+	"pdf_pass_protect_yes": "جی ہاں",
+	"pdf_pass_protect_no": "نہیں",
+	"pdf_owner_pass_label": "مالک کے پاس ورڈ",
+	"pdf_user_pass_label": "صارف کے پاس ورڈ",
+	"pdf_perm_print_yes": "جی ہاں",
+	"pdf_perm_print_no": "نہیں",
+	"pdf_perm_modify_label": "سی ترمیم کی اجازت دیتے ہیں ؟",
+	"pdf_perm_modify_yes": "جی ہاں",
+	"pdf_perm_modify_no": "نہیں",
+	"pdf_perm_copy_label": "اجازت متن نقل کر رہا ہے ؟",
+	"pdf_perm_copy_yes": "جی ہاں",
+	"pdf_perm_copy_no": "نہیں",
+	"pdf_perm_annotate_yes": "جی ہاں",
+	"pdf_perm_annotate_no": "نہیں"
+}

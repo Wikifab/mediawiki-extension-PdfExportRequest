@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"පසිඳු කාවින්ද"
+		]
+	},
+	"pdf_pass_protect_yes": "igen",
+	"pdf_pass_protect_no": "nem",
+	"pdf_perm_print_yes": "igen",
+	"pdf_perm_print_no": "nem",
+	"pdf_perm_modify_yes": "igen",
+	"pdf_perm_modify_no": "nem",
+	"pdf_perm_copy_yes": "igen",
+	"pdf_perm_copy_no": "nem",
+	"pdf_perm_annotate_yes": "igen",
+	"pdf_perm_annotate_no": "nem"
+}

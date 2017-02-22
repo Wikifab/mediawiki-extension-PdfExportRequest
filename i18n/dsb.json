@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Michawiki"
+		]
+	},
+	"pdfexport-desc": "Zmóžnja wudawanje boka ako PDF",
+	"pdfprint": "PDF-eksport",
+	"pdfprint_error": "PDF-eksport - zmólka",
+	"pdf_fontface_label": "Pismowa družyna",
+	"pdf_fontsize_label": "Wjelikosć pisma",
+	"pdf_margins_label": "Kšomy (w milimetrach)",
+	"pdf_margins_label_top": "górjejce",
+	"pdf_margins_label_sides": "boki",
+	"pdf_margins_label_bottom": "dołojce",
+	"pdf_print_link": "Ako PDF śišćaś",
+	"pdf_print_text": "Zapódajśo titel boka, kótaryž coš ako PDF wudaś",
+	"pdf_submit": "Ako PDF wudaś",
+	"pdf_portrait": "Wusoki format",
+	"pdf_landscape": "Prěcny format",
+	"pdf_pass_protect_label": "Gronidłowy šćit",
+	"pdf_pass_protect_yes": "jo",
+	"pdf_pass_protect_no": "ně",
+	"pdf_owner_pass_label": "Gronidło wobsejźarja",
+	"pdf_user_pass_label": "Wužywarske gronidło",
+	"pdf_perm_print_label": "Śišćanje dowóliś?",
+	"pdf_perm_print_yes": "jo",
+	"pdf_perm_print_no": "ně",
+	"pdf_perm_modify_label": "Změny dowóliś?",
+	"pdf_perm_modify_yes": "jo",
+	"pdf_perm_modify_no": "ně",
+	"pdf_perm_copy_label": "Kopěrowanje teksta dowóliś?",
+	"pdf_perm_copy_yes": "jo",
+	"pdf_perm_copy_no": "ně",
+	"pdf_perm_annotate_label": "Komentary dowóliś?",
+	"pdf_perm_annotate_yes": "jo",
+	"pdf_perm_annotate_no": "ně",
+	"pdf_size": "Papierowy format",
+	"pdf_filename": "Datajowe mě",
+	"pdf_export_no_converter_found": "Softwara za PDF-konwertěrowanje njejo se namakała. Pšosym instalěruj pak PrinceXML, DomPdf pak HTMLDoc.",
+	"pdf_prince_error_not_installed": "Softwara PrinceXML za napóranje PDF-datajow njejo se pšawje instalěrowała. Pšosym staj se z administratorom do zwiska.",
+	"pdf_prince_error": "Softwara za napóranje PDF-datajow njamóžo PDF-dataje napóraś. Jolic toś ten problem dalej eksistěrujo, staj se z administratorom do zwiska."
+}

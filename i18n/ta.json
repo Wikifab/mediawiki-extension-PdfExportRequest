@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"Karthi.dr",
+			"Shanmugamp7"
+		]
+	},
+	"pdfprint": "PDF ஏற்றுமதி",
+	"pdfprint_error": "PDF ஏற்றுமதி - பிழை",
+	"pdf_fontsize_label": "எழுத்துரு அளவு",
+	"pdf_margins_label": "ஓரங்கள் (மில்லிமீட்டரில் காண்பிக்கப்படுகிறது)",
+	"pdf_margins_label_top": "மேல்",
+	"pdf_margins_label_sides": "பக்கங்கள்",
+	"pdf_margins_label_bottom": "கீழ்",
+	"pdf_print_link": "PDF ஆக அச்சிடு",
+	"pdf_print_text": "PDFக்கு நீங்கள் ஏற்றுமதி செய்ய விரும்பும் பக்கத்தின் தலைப்பை உள்ளிடவும்.",
+	"pdf_submit": "PDF உருவாக்கு",
+	"pdf_portrait": "நெடுக்கு வாட்டு",
+	"pdf_landscape": "அகலவாட்டு",
+	"pdf_pass_protect_label": "கடவுச்சொல் பாதுகாப்பு",
+	"pdf_pass_protect_yes": "ஆம்",
+	"pdf_pass_protect_no": "இல்லை",
+	"pdf_owner_pass_label": "உரிமையாளர் கடவுச்சொல்",
+	"pdf_user_pass_label": "பயனர் கடவுச்சொல்",
+	"pdf_perm_print_label": "அச்சிடுதலை அனுமதிப்பதா ?",
+	"pdf_perm_print_yes": "ஆம்",
+	"pdf_perm_print_no": "இல்லை",
+	"pdf_perm_modify_label": "மாற்றத்தை அனுமதிக்கவா ?",
+	"pdf_perm_modify_yes": "ஆம்",
+	"pdf_perm_modify_no": "இல்லை",
+	"pdf_perm_copy_label": "உரையை நகலெடுப்பதை அனுமதிப்பதா ?",
+	"pdf_perm_copy_yes": "ஆம்",
+	"pdf_perm_copy_no": "இல்லை",
+	"pdf_perm_annotate_label": "விளக்க உரைகளை அனுமதிப்பதா ?",
+	"pdf_perm_annotate_yes": "ஆம்",
+	"pdf_perm_annotate_no": "இல்லை",
+	"pdf_size": "தாள் அளவு",
+	"pdf_filename": "கோப்பின் பெயர்"
+}

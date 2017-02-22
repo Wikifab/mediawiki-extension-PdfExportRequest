@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"pdfexport-desc": "Испис на страница во PDF",
+	"pdfprint": "PDF-извоз",
+	"pdfprint_error": "PDF-извоз — Грешка",
+	"pdf_fontface_label": "Фонт",
+	"pdf_fontsize_label": "Големина на фонтот",
+	"pdf_margins_label": "Маргини (се прикажува во милиметри)",
+	"pdf_margins_label_top": "горе",
+	"pdf_margins_label_sides": "странично",
+	"pdf_margins_label_bottom": "долу",
+	"pdf_print_link": "Печати како PDF",
+	"pdf_print_text": "Внесете го насловот на страницата што сакате да ја извезете како PDF",
+	"pdf_submit": "Направи PDF",
+	"pdf_portrait": "Исправено",
+	"pdf_landscape": "Водорамно",
+	"pdf_pass_protect_label": "Заштита со лозинка",
+	"pdf_pass_protect_yes": "да",
+	"pdf_pass_protect_no": "не",
+	"pdf_owner_pass_label": "Лозинка на сопственикот",
+	"pdf_user_pass_label": "Лозинка на корисникот",
+	"pdf_perm_print_label": "Да може да се печати?",
+	"pdf_perm_print_yes": "да",
+	"pdf_perm_print_no": "не",
+	"pdf_perm_modify_label": "Да може да се менува?",
+	"pdf_perm_modify_yes": "да",
+	"pdf_perm_modify_no": "не",
+	"pdf_perm_copy_label": "Да може текстот да се копира?",
+	"pdf_perm_copy_yes": "да",
+	"pdf_perm_copy_no": "не",
+	"pdf_perm_annotate_label": "Да може да се ставаат прибелешки?",
+	"pdf_perm_annotate_yes": "да",
+	"pdf_perm_annotate_no": "не",
+	"pdf_size": "Големина на листот",
+	"pdf_filename": "Име на податотеката",
+	"pdf_export_no_converter_found": "Не пронајдов програм за претворање во PDF. Воспоставете еден од следниве: PrinceXML, DomPdf или HTMLDoc.",
+	"pdf_prince_error_not_installed": "Програмот PrinceXML за создавање на PDF не е воспоставен како што треба. Обратете се кај администраторот.",
+	"pdf_prince_error": "Програмот за испис на PDF не можеш да ја создаде податотеката. Обратете се кај администраторот."
+}

@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"WikiPhoenix"
+		]
+	},
+	"pdfexport-desc": "Renderar en sida som PDF",
+	"pdfprint": "PDF-exportering",
+	"pdfprint_error": "PDF-exportering - fel",
+	"pdf_fontface_label": "Typsnitt",
+	"pdf_fontsize_label": "Teckenstorlek",
+	"pdf_margins_label": "Marginaler (visas i millimeter)",
+	"pdf_margins_label_top": "toppen",
+	"pdf_margins_label_sides": "sidor",
+	"pdf_margins_label_bottom": "botten",
+	"pdf_print_link": "Skriv ut som PDF",
+	"pdf_print_text": "Ange titeln på sidan som du vill exportera till PDF",
+	"pdf_submit": "Skapa PDF",
+	"pdf_portrait": "Porträtt",
+	"pdf_landscape": "Landskap",
+	"pdf_pass_protect_label": "Lösenordsskydd",
+	"pdf_pass_protect_yes": "ja",
+	"pdf_pass_protect_no": "nej",
+	"pdf_owner_pass_label": "Ägarens lösenord",
+	"pdf_user_pass_label": "Användarens lösenord",
+	"pdf_perm_print_label": "Tillåt utskrift?",
+	"pdf_perm_print_yes": "ja",
+	"pdf_perm_print_no": "nej",
+	"pdf_perm_modify_label": "Tillåt ändringar?",
+	"pdf_perm_modify_yes": "ja",
+	"pdf_perm_modify_no": "nej",
+	"pdf_perm_copy_label": "Tillåt att kopiera text?",
+	"pdf_perm_copy_yes": "ja",
+	"pdf_perm_copy_no": "nej",
+	"pdf_perm_annotate_label": "Tillåt anteckningar?",
+	"pdf_perm_annotate_yes": "ja",
+	"pdf_perm_annotate_no": "nej",
+	"pdf_size": "Pappersstorlek",
+	"pdf_filename": "Filnamn",
+	"pdf_export_no_converter_found": "Ingen programvara för PDF-konvertering kunde hittas. Var god installera PrinceXML, DomPdf, eller HTMLDoc.",
+	"pdf_prince_error_not_installed": "Programvaran PrinceXML som skapar PDF-dokument har inte installerats riktigt. Var god kontakta en administratör.",
+	"pdf_prince_error": "Programvaran PrinceXML som skapar PDF-dokument kunde inte skapa PDF-dokumentet. Om problemet kvarstår, var god kontakt en administratör."
+}

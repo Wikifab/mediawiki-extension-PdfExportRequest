@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kghbln"
+		]
+	},
+	"pdfexport-desc": "Ermöglicht die Ausgabe einer Seite als PDF-Datei",
+	"pdfprint": "Seite als PDF exportieren",
+	"pdfprint_error": "PDF-Export – Fehler",
+	"pdf_fontface_label": "Schriftart",
+	"pdf_fontsize_label": "Schriftgröße",
+	"pdf_margins_label": "Ränder (in Millimetern)",
+	"pdf_margins_label_top": "oben",
+	"pdf_margins_label_sides": "an den Seiten",
+	"pdf_margins_label_bottom": "unten",
+	"pdf_print_link": "Als PDF-Datei ausgeben",
+	"pdf_print_text": "Gib den Namen der Seite an, die als PDF-Datei exportiert werden soll.",
+	"pdf_submit": "Als PDF ausgeben",
+	"pdf_portrait": "Hochformat",
+	"pdf_landscape": "Querformat",
+	"pdf_pass_protect_label": "Passwortschutz",
+	"pdf_pass_protect_yes": "Ja",
+	"pdf_pass_protect_no": "Nein",
+	"pdf_owner_pass_label": "Passwort des Besitzers",
+	"pdf_user_pass_label": "Passwort des Benutzers",
+	"pdf_perm_print_label": "Drucken zulassen?",
+	"pdf_perm_print_yes": "Ja",
+	"pdf_perm_print_no": "Nein",
+	"pdf_perm_modify_label": "Änderungen zulassen?",
+	"pdf_perm_modify_yes": "Ja",
+	"pdf_perm_modify_no": "Nein",
+	"pdf_perm_copy_label": "Entnehmen von Inhalten zulassen?",
+	"pdf_perm_copy_yes": "Ja",
+	"pdf_perm_copy_no": "Nein",
+	"pdf_perm_annotate_label": "Kommentare zulassen?",
+	"pdf_perm_annotate_yes": "Ja",
+	"pdf_perm_annotate_no": "Nein",
+	"pdf_size": "Papierformat",
+	"pdf_filename": "Dateiname",
+	"pdf_export_no_converter_found": "Es wurde keine Software zum Erzeugen der PDF-Datei gefunden. Es muss entweder PrinceXML, DomPdf, or HTMLDOC installiert werden.",
+	"pdf_prince_error_not_installed": "Die Software PrinceXML zum Erzeugen der PDF-Datei wurde nicht richtig installiert. Bitte kontaktiere einen Systemadministrator.",
+	"pdf_prince_error": "Die Software zum Erzeugen der PDF-Datei funktioniert nicht. Bitte kontaktiere einen Systemadministrator, sofern das Problem andauert."
+}

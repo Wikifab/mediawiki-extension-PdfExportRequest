@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"pdfexport-desc": "Fà vedè 'a pàgene cumme a 'nu PDF",
+	"pdfprint": "Esporte 'u PDF",
+	"pdfprint_error": "Esporte 'u PDF - Errore",
+	"pdf_fontface_label": "Aspette d'u carattere",
+	"pdf_fontsize_label": "Dimenzione d'u carattere",
+	"pdf_margins_label": "Margine (fà vedè in millimetre)",
+	"pdf_margins_label_top": "sus",
+	"pdf_margins_label_sides": "de late",
+	"pdf_margins_label_bottom": "sotte",
+	"pdf_print_link": "Stambe cumme a 'nu PDF",
+	"pdf_print_text": "Sckaffe 'u titole d'a pàgene ca vuè esportà in PDF",
+	"pdf_submit": "Fà 'nu PDF",
+	"pdf_portrait": "Verticale",
+	"pdf_landscape": "Orizzondale",
+	"pdf_pass_protect_label": "Protezione d'a passuord",
+	"pdf_pass_protect_yes": "sìne",
+	"pdf_pass_protect_no": "none",
+	"pdf_owner_pass_label": "Titolare d'a passuord",
+	"pdf_user_pass_label": "Passuord de l'utende",
+	"pdf_perm_print_label": "Permette de stambà?",
+	"pdf_perm_print_yes": "sìne",
+	"pdf_perm_print_no": "none",
+	"pdf_perm_modify_label": "Permette 'u cangiamende?",
+	"pdf_perm_modify_yes": "sìne",
+	"pdf_perm_modify_no": "none",
+	"pdf_perm_copy_label": "Permette 'a copie d'u teste?",
+	"pdf_perm_copy_yes": "sìne",
+	"pdf_perm_copy_no": "none",
+	"pdf_perm_annotate_label": "Permette le note?",
+	"pdf_perm_annotate_yes": "sìne",
+	"pdf_perm_annotate_no": "none",
+	"pdf_size": "Dimenzione d'u fogghie",
+	"pdf_filename": "Nome d'u file",
+	"pdf_export_no_converter_found": "Nisciuna softuer de conversione in  PDF ha state acchiate. Pe piacere installe PrinceXML, o DomPdf o HTMLDoc.",
+	"pdf_prince_error_not_installed": "'U softuer de creazione d'u PDS PrinceXML non g'ha state installate correttamende. Pe piacere condatte 'n'amministratore.",
+	"pdf_prince_error": "'U softuer de creazione d'u PDF non g'ha state capace de fà 'u PDF. Ce 'u probbleme stè angore, pe piacere condatte 'n'amministratore."
+}

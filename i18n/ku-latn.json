@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"George Animal"
+		]
+	},
+	"pdf_submit": "Bike PDF",
+	"pdf_pass_protect_yes": "erê",
+	"pdf_user_pass_label": "Şîfreya bikarhêner",
+	"pdf_perm_modify_yes": "erê",
+	"pdf_perm_copy_yes": "erê",
+	"pdf_perm_annotate_yes": "erê",
+	"pdf_filename": "Navê dosyeyê"
+}

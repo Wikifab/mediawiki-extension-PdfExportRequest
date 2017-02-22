@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fohanno",
+			"Y-M D"
+		]
+	},
+	"pdfexport-desc": "Pourvez a ra ur bajenn er furmad PDF",
+	"pdfprint": "Ezporzh PDF",
+	"pdfprint_error": "Ezporzh PDF - Fazi",
+	"pdf_fontsize_label": "Ment ar font",
+	"pdf_margins_label_top": "krec'h",
+	"pdf_margins_label_sides": "kostezioù",
+	"pdf_margins_label_bottom": "traoñ",
+	"pdf_print_link": "Moullañ er furmad PDF",
+	"pdf_print_text": "Lakait titl ar bajenn a fell deoc'h ezporzhiañ er furmad PDF",
+	"pdf_submit": "Krouiñ ur PDF",
+	"pdf_portrait": "Poltred",
+	"pdf_landscape": "Gweledva",
+	"pdf_pass_protect_label": "Gwareziñ dre ur ger-tremen",
+	"pdf_pass_protect_yes": "ya",
+	"pdf_pass_protect_no": "ket",
+	"pdf_owner_pass_label": "Perc'henn ar ger-tremen",
+	"pdf_user_pass_label": "Ger-tremen implijer",
+	"pdf_perm_print_label": "Aotreañ moullañ ?",
+	"pdf_perm_print_yes": "ya",
+	"pdf_perm_print_no": "ket",
+	"pdf_perm_modify_label": "Aotreañ ar c'hemm ?",
+	"pdf_perm_modify_yes": "ya",
+	"pdf_perm_modify_no": "ket",
+	"pdf_perm_copy_label": "Aotreañ eilañ an destenn ?",
+	"pdf_perm_copy_yes": "ya",
+	"pdf_perm_copy_no": "ket",
+	"pdf_perm_annotate_label": "Aotreañ an notennaouiñ ?",
+	"pdf_perm_annotate_yes": "ya",
+	"pdf_perm_annotate_no": "ket",
+	"pdf_size": "Ment ar paper",
+	"pdf_filename": "Anv ar restr",
+	"pdf_export_no_converter_found": "N'eus bet kavet meziant amdreiñ e PDF ebet. Mar plij stalit PrinceXML, DomPdf pe HTMLDoc.",
+	"pdf_prince_error_not_installed": "N'eo ket staliet er mod reizh ar meziant PrinceXM evit krouiñ PDFoù. Mar plij kit e darempred gant ur merour.",
+	"pdf_prince_error": "N'en deus ket gellet ar meziant krouiñ PDFoù krouiñ ar restr PDF. Ma talc'h ar gudenn, mar plij kit e darempred gant ur merour."
+}

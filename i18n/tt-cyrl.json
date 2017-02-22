@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ильнар"
+		]
+	},
+	"pdfexport-desc": "Битне PDF форматына күчерә",
+	"pdfprint": "PDFка күчерү",
+	"pdfprint_error": "PDFка күчерү — Хата",
+	"pdf_fontface_label": "Шрифт",
+	"pdf_fontsize_label": "Зурлык",
+	"pdf_margins_label": "Кырлар (миллиметрларда)",
+	"pdf_margins_label_top": "өске",
+	"pdf_margins_label_sides": "ян",
+	"pdf_margins_label_bottom": "аскы",
+	"pdf_print_link": "PDF иттереп бастыру",
+	"pdf_print_text": "PDF форматында чыгарырга теләгән битнең исемен кертегез",
+	"pdf_submit": "PDF ясау",
+	"pdf_portrait": "Портрет",
+	"pdf_landscape": "Ландшафт",
+	"pdf_pass_protect_label": "Серсүз белән яклау",
+	"pdf_pass_protect_yes": "әйе",
+	"pdf_pass_protect_no": "юк",
+	"pdf_owner_pass_label": "Хуҗаның серсүзе",
+	"pdf_user_pass_label": "Кулланучы серсүзе",
+	"pdf_perm_print_label": "Бастырырга рөхсәт итәргәме?",
+	"pdf_perm_print_yes": "әйе",
+	"pdf_perm_print_no": "юк",
+	"pdf_perm_modify_label": "Үзгәртергә рөхсәт итәргәме?",
+	"pdf_perm_modify_yes": "әйе",
+	"pdf_perm_modify_no": "юк",
+	"pdf_perm_copy_label": "Текстны күчермәләү ярыймы?",
+	"pdf_perm_copy_yes": "әйе",
+	"pdf_perm_copy_no": "юк",
+	"pdf_perm_annotate_label": "Аннотацияләрне кую мөмкинме?",
+	"pdf_perm_annotate_yes": "әйе",
+	"pdf_perm_annotate_no": "юк",
+	"pdf_size": "Кәгазь зурлыгы",
+	"pdf_filename": "Файл исеме",
+	"pdf_export_no_converter_found": "PDF иттереп чыгаруны тәмин итүче мөмкинлекләрне табып булмады. Зинһар, PrinceXML, DomPdf яисә HTMLDoc тәэминатын урнаштырыгыз.",
+	"pdf_prince_error_not_installed": "PDF ясаучы PrinceXML дөрес урнаштырылмаган. Зиһар, идарәчегә хәбәр итегез.",
+	"pdf_prince_error": "PDF ясаучы программа файл төзи алмады. Әлеге сәбәпләр кабатланса, зинһар, идарәчегә хәбәр итегез."
+}

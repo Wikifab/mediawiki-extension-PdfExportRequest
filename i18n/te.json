@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Veeven"
+		]
+	},
+	"pdf_margins_label_top": "పైన",
+	"pdf_margins_label_sides": "ప్రక్కలు",
+	"pdf_margins_label_bottom": "అడుగున",
+	"pdf_pass_protect_yes": "అవును",
+	"pdf_pass_protect_no": "వద్దు",
+	"pdf_owner_pass_label": "యజమాని సంకేతపదం",
+	"pdf_user_pass_label": "వాడుకరి సంకేతపదం",
+	"pdf_perm_print_label": "ముద్రణను అనుమతించాలా?",
+	"pdf_perm_print_yes": "అవును",
+	"pdf_perm_print_no": "వద్దు",
+	"pdf_perm_modify_yes": "అవును",
+	"pdf_perm_modify_no": "వద్దు",
+	"pdf_perm_copy_yes": "అవును",
+	"pdf_perm_copy_no": "వద్దు",
+	"pdf_perm_annotate_yes": "అవును",
+	"pdf_perm_annotate_no": "వద్దు",
+	"pdf_size": "కాగితపు పరిమాణం"
+}

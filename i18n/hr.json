@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Adundovi"
+		]
+	},
+	"pdfexport-desc": "Iscrtava stranicu kao PDF",
+	"pdfprint": "Izvezi u PDF",
+	"pdfprint_error": "Izvezi u PDF - Pogreška",
+	"pdf_fontface_label": "Vrsta fonta",
+	"pdf_fontsize_label": "Veličina fonta",
+	"pdf_margins_label": "Margine (prikazano u milimetrima)",
+	"pdf_margins_label_top": "gornja",
+	"pdf_margins_label_sides": "bočne",
+	"pdf_margins_label_bottom": "doljnja",
+	"pdf_print_link": "Ispiši u PDF",
+	"pdf_print_text": "Unesi naslov stranice koju želite izvesti u PDF",
+	"pdf_submit": "Stvori PDF",
+	"pdf_portrait": "Portret",
+	"pdf_landscape": "Pejzaž",
+	"pdf_pass_protect_label": "Zaštita zaporkom",
+	"pdf_pass_protect_yes": "da",
+	"pdf_pass_protect_no": "ne",
+	"pdf_owner_pass_label": "Vlasnička zaporka",
+	"pdf_user_pass_label": "Korisnička zaporka",
+	"pdf_perm_print_label": "Dozvoli ispis?",
+	"pdf_perm_print_yes": "da",
+	"pdf_perm_print_no": "ne",
+	"pdf_perm_modify_label": "Dozvoli izmjene?",
+	"pdf_perm_modify_yes": "da",
+	"pdf_perm_modify_no": "ne",
+	"pdf_perm_copy_label": "Dozvoli kopiranje teksta?",
+	"pdf_perm_copy_yes": "da",
+	"pdf_perm_copy_no": "ne",
+	"pdf_perm_annotate_label": "Dozvoli anotacije?",
+	"pdf_perm_annotate_yes": "da",
+	"pdf_perm_annotate_no": "ne",
+	"pdf_size": "Veličina papira",
+	"pdf_filename": "Naziv datoteke",
+	"pdf_export_no_converter_found": "Nedostaje softver za konverziju u PDF. Molim vas da instalirate jedan od sljedećih: PrinceXML, DomPdf ili HTMLDoc.",
+	"pdf_prince_error_not_installed": "Softver za stvaranje PDF-a PrinceXML nije ispravno instaliran. Molim vas da kontaktirate administratora.",
+	"pdf_prince_error": "Softver za stvaranje PDF-a nije uspio stvoriti PDF. Ako se problem nastavi ponavljati, molim vas da kontaktirate administratora."
+}

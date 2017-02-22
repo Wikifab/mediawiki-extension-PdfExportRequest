@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"GunChleoc"
+		]
+	},
+	"pdfexport-desc": "Nì seo PDF de dhuilleag",
+	"pdfprint": "Às-phortadh PDF",
+	"pdfprint_error": "Às-phortadh PDF - Mearachd",
+	"pdf_fontface_label": "Cruth-clò",
+	"pdf_fontsize_label": "Meud a' chrutha-chlò",
+	"pdf_margins_label": "Marghain ('nam mille-mheatair)",
+	"pdf_margins_label_top": "barr",
+	"pdf_margins_label_sides": "taobhan",
+	"pdf_margins_label_bottom": "bonn",
+	"pdf_print_link": "Dèan PDF dheth",
+	"pdf_print_text": "Cuir a-steach tiotal na duilleige a bheil thu airson às-phortadh 'na PDF",
+	"pdf_submit": "Dèan PDF",
+	"pdf_portrait": "Portraid",
+	"pdf_landscape": "Dreach-tìre",
+	"pdf_pass_protect_label": "Dìon le facal-faire",
+	"pdf_pass_protect_yes": "dìon",
+	"pdf_pass_protect_no": "na dìon",
+	"pdf_owner_pass_label": "Facal-faire an t-seilbheadair",
+	"pdf_user_pass_label": "Facal-faire an luchd-cleachdaidh",
+	"pdf_perm_print_label": "Ceadaich clò-bhualadh?",
+	"pdf_perm_print_yes": "ceadaich",
+	"pdf_perm_print_no": "na ceadaich",
+	"pdf_perm_modify_label": "Ceadaich atharrachadh?",
+	"pdf_perm_modify_yes": "ceadaich",
+	"pdf_perm_modify_no": "na ceadaich",
+	"pdf_perm_copy_label": "Ceadaich gun dèanar lethbhreac dhe theacsa ann?",
+	"pdf_perm_copy_yes": "ceadaich",
+	"pdf_perm_copy_no": "na ceadaich",
+	"pdf_perm_annotate_label": "Ceadaich nòtachaidhean?",
+	"pdf_perm_annotate_yes": "ceadaich",
+	"pdf_perm_annotate_no": "na ceadaich",
+	"pdf_size": "Meud a' phàipeir",
+	"pdf_filename": "Ainm an fhaidhle",
+	"pdf_export_no_converter_found": "Cha deach bathar-bog a lorg gus iompachadh gu PDF. Feuch an stàlaich thu PrinceXML, DomPdf, no HTMLDoc.",
+	"pdf_prince_error_not_installed": "Cha deach cruthachadh PDF PrinceXML a stàladh mar bu chòir. Cuir fios gu rianaire.",
+	"pdf_prince_error": "Cha deach leis a' bhathar-bhog gus PDF a chruthachadh seo a dhèanamh. Ma mhaireas an duilgheadas seo, cuir fios gu rianaire."
+}

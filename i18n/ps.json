@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ahmed-Najib-Biabani-Ibrahimkhel"
+		]
+	},
+	"pdf_fontface_label": "د ليکبڼې مخ",
+	"pdf_fontsize_label": "د ليکبڼې کچه",
+	"pdf_margins_label_top": "سر",
+	"pdf_margins_label_sides": "اړخونه",
+	"pdf_print_link": "د پي ډي اېف په توگه چاپول",
+	"pdf_submit": "پي ډي اېف جوړول",
+	"pdf_pass_protect_label": "پټنوم ژغورنه",
+	"pdf_pass_protect_yes": "هو",
+	"pdf_pass_protect_no": "نه",
+	"pdf_owner_pass_label": "د خاوند پټنوم",
+	"pdf_user_pass_label": "د کارن پټنوم",
+	"pdf_perm_print_label": "تر جوړېدو وروسته چاپ ته يې پرېږدې؟",
+	"pdf_perm_print_yes": "هو",
+	"pdf_perm_print_no": "نه",
+	"pdf_perm_modify_label": "تر جوړېدو وروسته بدلون ته يې پرېږدې؟",
+	"pdf_perm_modify_yes": "هو",
+	"pdf_perm_modify_no": "نه",
+	"pdf_perm_copy_label": "تر جوړېدو وروسته، د متن لمېسلو ته پرېږدې؟",
+	"pdf_perm_copy_yes": "هو",
+	"pdf_perm_copy_no": "نه",
+	"pdf_perm_annotate_yes": "هو",
+	"pdf_perm_annotate_no": "نه",
+	"pdf_size": "د کاغذ کچه",
+	"pdf_filename": "د دوتنې نوم"
+}

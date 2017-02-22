@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Yekrats"
+		]
+	},
+	"pdf_pass_protect_yes": "jes",
+	"pdf_pass_protect_no": "ne",
+	"pdf_perm_annotate_yes": "jes",
+	"pdf_perm_annotate_no": "ne"
+}

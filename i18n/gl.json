@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Toliño"
+		]
+	},
+	"pdfexport-desc": "Renderiza unha páxina en formato PDF",
+	"pdfprint": "Exportación en PDF",
+	"pdfprint_error": "Exportación en PDF - Erro",
+	"pdf_fontface_label": "Fonte de letra",
+	"pdf_fontsize_label": "Tamaño da letra",
+	"pdf_margins_label": "Marxes (móstrase en milímetros)",
+	"pdf_margins_label_top": "arriba",
+	"pdf_margins_label_sides": "lados",
+	"pdf_margins_label_bottom": "pé",
+	"pdf_print_link": "Imprimir como PDF",
+	"pdf_print_text": "Insira o título da páxina que queira exportar en formato PDF",
+	"pdf_submit": "Crear o PDF",
+	"pdf_portrait": "Retrato",
+	"pdf_landscape": "Paisaxe",
+	"pdf_pass_protect_label": "Protección por contrasinal",
+	"pdf_pass_protect_yes": "si",
+	"pdf_pass_protect_no": "non",
+	"pdf_owner_pass_label": "Contrasinal de propietario",
+	"pdf_user_pass_label": "Contrasinal de usuario",
+	"pdf_perm_print_label": "Quere permitir a impresión?",
+	"pdf_perm_print_yes": "si",
+	"pdf_perm_print_no": "non",
+	"pdf_perm_modify_label": "Quere permitir a modificación?",
+	"pdf_perm_modify_yes": "si",
+	"pdf_perm_modify_no": "non",
+	"pdf_perm_copy_label": "Quere permitir a copia de texto?",
+	"pdf_perm_copy_yes": "si",
+	"pdf_perm_copy_no": "non",
+	"pdf_perm_annotate_label": "Quere permitir as anotacións?",
+	"pdf_perm_annotate_yes": "si",
+	"pdf_perm_annotate_no": "non",
+	"pdf_size": "Tamaño do papel",
+	"pdf_filename": "Nome do ficheiro",
+	"pdf_export_no_converter_found": "Non se atopou ningún software de conversión a PDF. Instale PrinceXML, DomPdf ou HTMLDoc.",
+	"pdf_prince_error_not_installed": "O software de creación de ficheiros PDF PrinceXML non está instalado correctamente. Póñase en contacto cun administrador.",
+	"pdf_prince_error": "O software de creación de ficheiros PDF non foi capaz de crear o PDF. Se o problema continúa, póñase en contacto cun administrador."
+}

@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"BeginaFelicysym"
+		]
+	},
+	"pdfexport-desc": "Renderuje stronę w postaci PDF",
+	"pdfprint": "Eksport do PDF",
+	"pdfprint_error": "Eksport do PDF - Błąd",
+	"pdf_fontface_label": "Czcionka",
+	"pdf_fontsize_label": "Rozmiarczcionki",
+	"pdf_margins_label": "Marginesy (wyświetlane w milimetrach)",
+	"pdf_margins_label_top": "górny",
+	"pdf_margins_label_sides": "boczne",
+	"pdf_margins_label_bottom": "dolny",
+	"pdf_print_link": "Drukuj do PDF",
+	"pdf_print_text": "Wpisz tytuł strony, którą chcesz wyeksportować do PDF",
+	"pdf_submit": "Utwórz PDF",
+	"pdf_portrait": "Pionowa",
+	"pdf_landscape": "Pozioma",
+	"pdf_pass_protect_label": "Ochrona hasłem",
+	"pdf_pass_protect_yes": "tak",
+	"pdf_pass_protect_no": "nie",
+	"pdf_owner_pass_label": "Hasło główne",
+	"pdf_user_pass_label": "Hasło użytkownika",
+	"pdf_perm_print_label": "Zezwolić na drukowanie?",
+	"pdf_perm_print_yes": "tak",
+	"pdf_perm_print_no": "nie",
+	"pdf_perm_modify_label": "Zezwolić na zmiany?",
+	"pdf_perm_modify_yes": "tak",
+	"pdf_perm_modify_no": "nie",
+	"pdf_perm_copy_label": "Zezwolić na kopiowanie tekstu?",
+	"pdf_perm_copy_yes": "tak",
+	"pdf_perm_copy_no": "nie",
+	"pdf_perm_annotate_label": "Zezwolić na notatki?",
+	"pdf_perm_annotate_yes": "tak",
+	"pdf_perm_annotate_no": "nie",
+	"pdf_size": "Rozmiar papieru",
+	"pdf_filename": "Nazwa pliku",
+	"pdf_export_no_converter_found": "Nie udało się znaleźć żadnego oprogramowanie do konwersji PDF. Należy zainstalować PrinceXML, DomPdf lub HTMLDoc.",
+	"pdf_prince_error_not_installed": "Oprogramowanie do tworzenia PDF PrinceXML nie jest poprawnie zainstalowane. Skontaktuj się z administratorem.",
+	"pdf_prince_error": "Program do tworzenia PDF nie mógł utworzyć pliku PDF. Jeśli problem będzie się powtarzał, skontaktuj się z administratorem."
+}

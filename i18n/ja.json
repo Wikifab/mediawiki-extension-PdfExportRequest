@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Shirayuki"
+		]
+	},
+	"pdfexport-desc": "ページをPDF形式にレンダリングする",
+	"pdfprint": "PDF書き出し",
+	"pdfprint_error": "PDF書き出し - エラー",
+	"pdf_fontface_label": "フォント名",
+	"pdf_fontsize_label": "フォントサイズ",
+	"pdf_margins_label": "余白 (mm)",
+	"pdf_margins_label_top": "上",
+	"pdf_margins_label_sides": "左右",
+	"pdf_margins_label_bottom": "下",
+	"pdf_print_link": "PDFとして印刷",
+	"pdf_print_text": "PDF形式で書き出したいページ名を入力",
+	"pdf_submit": "PDFを作成",
+	"pdf_portrait": "縦",
+	"pdf_landscape": "横",
+	"pdf_pass_protect_label": "パスワード保護",
+	"pdf_pass_protect_yes": "はい",
+	"pdf_pass_protect_no": "いいえ",
+	"pdf_owner_pass_label": "所有者パスワード",
+	"pdf_user_pass_label": "利用者パスワード",
+	"pdf_perm_print_label": "印刷を許可しますか?",
+	"pdf_perm_print_yes": "はい",
+	"pdf_perm_print_no": "いいえ",
+	"pdf_perm_modify_label": "変更を許可しますか?",
+	"pdf_perm_modify_yes": "はい",
+	"pdf_perm_modify_no": "いいえ",
+	"pdf_perm_copy_label": "テキストのコピーを許可しますか?",
+	"pdf_perm_copy_yes": "はい",
+	"pdf_perm_copy_no": "いいえ",
+	"pdf_perm_annotate_label": "注釈を許可しますか?",
+	"pdf_perm_annotate_yes": "はい",
+	"pdf_perm_annotate_no": "いいえ",
+	"pdf_size": "用紙サイズ",
+	"pdf_filename": "ファイル名",
+	"pdf_export_no_converter_found": "PDF変換ソフトウェアが見つかりません。PrinceXML、DomPdf、HTMLDocのいずれかをインストールしてください。",
+	"pdf_prince_error_not_installed": "PDF作成ソフトウェアPrinceXMLが正しくインストールされていません。管理者にお問い合わせください。",
+	"pdf_prince_error": "PDF作成ソフトウェアがPDFを作成できませんでした。この問題が続く場合は、管理者にお問い合わせください。"
+}

@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Base"
+		]
+	},
+	"pdfexport-desc": "Перетворює сторінку у формат PDF",
+	"pdfprint": "Експорт у PDF",
+	"pdfprint_error": "Експорт у PDF — помилка",
+	"pdf_fontface_label": "Шрифт",
+	"pdf_fontsize_label": "Розмір шрифту",
+	"pdf_margins_label": "Поля (в міліметрах)",
+	"pdf_margins_label_top": "верхнє",
+	"pdf_margins_label_sides": "бічні",
+	"pdf_margins_label_bottom": "нижнє",
+	"pdf_print_link": "Друк як PDF",
+	"pdf_print_text": "Введіть назву сторінки, яку Ви хочете експортувати у PDF",
+	"pdf_submit": "Створити PDF",
+	"pdf_portrait": "Портретна",
+	"pdf_landscape": "Альбомна",
+	"pdf_pass_protect_label": "Захист паролем",
+	"pdf_pass_protect_yes": "так",
+	"pdf_pass_protect_no": "ні",
+	"pdf_owner_pass_label": "Пароль власника",
+	"pdf_user_pass_label": "Пароль користувача",
+	"pdf_perm_print_label": "Дозволити друк?",
+	"pdf_perm_print_yes": "так",
+	"pdf_perm_print_no": "ні",
+	"pdf_perm_modify_label": "Дозволити зміни?",
+	"pdf_perm_modify_yes": "так",
+	"pdf_perm_modify_no": "ні",
+	"pdf_perm_copy_label": "Дозволити копіювання тексту?",
+	"pdf_perm_copy_yes": "так",
+	"pdf_perm_copy_no": "ні",
+	"pdf_perm_annotate_label": "Дозволити анотації?",
+	"pdf_perm_annotate_yes": "так",
+	"pdf_perm_annotate_no": "ні",
+	"pdf_size": "Розмір паперу",
+	"pdf_filename": "Ім'я файлу",
+	"pdf_export_no_converter_found": "Не вдалось знайти програми для перетворення у PDF. Будь ласка, встановіть будь-яку програму з перелічених: PrinceXML, DomPdf, або HTMLDoc.",
+	"pdf_prince_error_not_installed": "Програму для створення PDF, PrinceXML було встановлено некоректно. Будь ласка, зверніться до адміністратора.",
+	"pdf_prince_error": "Програмі для створення PDF не вдалось створити PDF. Якщо проблема повторується, будь ласка, зверніться до адміністратора."
+}

@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"ChrisPtDe"
+		]
+	},
+	"pdf_print_link": "Emprimar u format PDF",
+	"pdf_submit": "Fâre un PDF",
+	"pdf_portrait": "Portrèt",
+	"pdf_landscape": "Payisâjo",
+	"pdf_pass_protect_label": "Protèccion per contresegno",
+	"pdf_pass_protect_yes": "ouè",
+	"pdf_pass_protect_no": "nan",
+	"pdf_perm_print_yes": "ouè",
+	"pdf_perm_print_no": "nan",
+	"pdf_perm_modify_yes": "ouè",
+	"pdf_perm_modify_no": "nan",
+	"pdf_perm_copy_yes": "ouè",
+	"pdf_perm_copy_no": "nan",
+	"pdf_perm_annotate_yes": "ouè",
+	"pdf_perm_annotate_no": "nan",
+	"pdf_size": "Format du papiér",
+	"pdf_filename": "Nom du fichiér"
+}

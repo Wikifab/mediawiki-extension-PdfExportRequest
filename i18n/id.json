@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Farras",
+			"පසිඳු කාවින්ද"
+		]
+	},
+	"pdf_pass_protect_yes": "ya",
+	"pdf_pass_protect_no": "tidak",
+	"pdf_perm_print_yes": "ya",
+	"pdf_perm_print_no": "tidak",
+	"pdf_perm_modify_yes": "ya",
+	"pdf_perm_modify_no": "tidak",
+	"pdf_perm_copy_yes": "ya",
+	"pdf_perm_copy_no": "tidak",
+	"pdf_perm_annotate_yes": "ya",
+	"pdf_perm_annotate_no": "tidak"
+}

@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"EileenSanda"
+		]
+	},
+	"pdfexport-desc": "Endurgevur eina síðu sum PDF",
+	"pdfprint": "PDF Eksport",
+	"pdfprint_error": "PDF Eksport - Feilur",
+	"pdf_fontsize_label": "Stødd á skrift",
+	"pdf_margins_label_top": "ovast",
+	"pdf_margins_label_sides": "síður",
+	"pdf_margins_label_bottom": "niðast",
+	"pdf_print_link": "Útskriva sum PDF",
+	"pdf_print_text": "Skriva heiti á síðuni, ið tú ynskir at útflyta til PDF",
+	"pdf_submit": "Ger PDF",
+	"pdf_portrait": "Portrett",
+	"pdf_landscape": "Landsskap",
+	"pdf_pass_protect_label": "Verja av loyniorði",
+	"pdf_pass_protect_yes": "ja",
+	"pdf_pass_protect_no": "nei",
+	"pdf_owner_pass_label": "Loyniorð hjá eigara",
+	"pdf_user_pass_label": "Brúkara loyniorð",
+	"pdf_perm_print_label": "Loyv útskriving?",
+	"pdf_perm_print_yes": "ja",
+	"pdf_perm_print_no": "nei",
+	"pdf_perm_modify_label": "Loyn broyting?",
+	"pdf_perm_modify_yes": "ja",
+	"pdf_perm_modify_no": "nei",
+	"pdf_perm_copy_label": "Loyv avritan av teksti?",
+	"pdf_perm_copy_yes": "ja",
+	"pdf_perm_copy_no": "nei",
+	"pdf_perm_annotate_yes": "ja",
+	"pdf_perm_annotate_no": "nei",
+	"pdf_size": "Stødd á pappíri",
+	"pdf_filename": "Fílunavn"
+}

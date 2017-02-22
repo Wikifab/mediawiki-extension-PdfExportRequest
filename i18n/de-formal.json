@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kghbln"
+		]
+	},
+	"pdf_print_text": "Geben Sie den Namen der Seite an, die als PDF-Datei exportiert werden soll.",
+	"pdf_prince_error_not_installed": "Die Software PrinceXML, zum Erzeugen der PDF-Datei, wurde nicht richtig installiert. Bitte kontaktierem Sie einen Systemadministrator.",
+	"pdf_prince_error": "Die Software zum Erzeugen der PDF-Datei funktioniert nicht. Bitte kontaktieren Sie einen Systemadministrator, sofern das Problem andauert."
+}

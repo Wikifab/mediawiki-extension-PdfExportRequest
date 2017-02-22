@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Darth Kule"
+		]
+	},
+	"pdfexport-desc": "Esegue il rendering di una pagina in formato PDF",
+	"pdfprint": "Esportazione in PDF",
+	"pdfprint_error": "Esportazione in PDF - Errore",
+	"pdf_fontface_label": "Tipo carattere",
+	"pdf_fontsize_label": "Dimensione carattere",
+	"pdf_margins_label": "Margini (in millimetri)",
+	"pdf_margins_label_top": "superiore",
+	"pdf_margins_label_sides": "laterali",
+	"pdf_margins_label_bottom": "inferiore",
+	"pdf_print_link": "Stampa in formato PDF",
+	"pdf_print_text": "Inserire il titolo della pagina che si desidera esportare in PDF",
+	"pdf_submit": "Rendere PDF",
+	"pdf_portrait": "Verticale",
+	"pdf_landscape": "Orizzontale",
+	"pdf_pass_protect_label": "Protezione con password",
+	"pdf_pass_protect_yes": "sì",
+	"pdf_pass_protect_no": "no",
+	"pdf_owner_pass_label": "Password del proprietario",
+	"pdf_user_pass_label": "Password utente",
+	"pdf_perm_print_label": "Consentire la stampa?",
+	"pdf_perm_print_yes": "sì",
+	"pdf_perm_print_no": "no",
+	"pdf_perm_modify_label": "Consentire la modifica?",
+	"pdf_perm_modify_yes": "sì",
+	"pdf_perm_modify_no": "no",
+	"pdf_perm_copy_label": "Consentire di copiare il testo?",
+	"pdf_perm_copy_yes": "sì",
+	"pdf_perm_copy_no": "no",
+	"pdf_perm_annotate_label": "Consentire le annotazioni?",
+	"pdf_perm_annotate_yes": "sì",
+	"pdf_perm_annotate_no": "no",
+	"pdf_size": "Formato della carta",
+	"pdf_filename": "Nome del file",
+	"pdf_export_no_converter_found": "Nessun software di conversione PDF trovato. Si prega di installare PrinceXML, DomPdf o HTMLDoc.",
+	"pdf_prince_error_not_installed": "Il software di creazione di PDF PrinceXML non è installato correttamente. Si prega di contattare un amministratore.",
+	"pdf_prince_error": "Il software di creazione di PDF non era in grado di creare il PDF. Se il problema persiste, contattare un amministratore."
+}

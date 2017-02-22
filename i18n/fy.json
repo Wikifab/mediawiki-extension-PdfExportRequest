@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robin0van0der0vliet"
+		]
+	},
+	"pdf_pass_protect_yes": "ja",
+	"pdf_pass_protect_no": "nee",
+	"pdf_perm_print_yes": "ja",
+	"pdf_perm_print_no": "nee",
+	"pdf_perm_modify_yes": "ja",
+	"pdf_perm_modify_no": "nee",
+	"pdf_perm_copy_yes": "ja",
+	"pdf_perm_copy_no": "nee",
+	"pdf_perm_annotate_yes": "ja",
+	"pdf_perm_annotate_no": "nee",
+	"pdf_filename": "Triemnamme"
+}

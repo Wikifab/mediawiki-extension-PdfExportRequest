@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"පසිඳු කාවින්ද"
+		]
+	},
+	"pdf_pass_protect_yes": "יא",
+	"pdf_pass_protect_no": "ניין",
+	"pdf_perm_print_yes": "יא",
+	"pdf_perm_print_no": "ניין",
+	"pdf_perm_modify_yes": "יא",
+	"pdf_perm_modify_no": "ניין",
+	"pdf_perm_copy_yes": "יא",
+	"pdf_perm_copy_no": "ניין",
+	"pdf_perm_annotate_yes": "יא",
+	"pdf_perm_annotate_no": "ניין"
+}

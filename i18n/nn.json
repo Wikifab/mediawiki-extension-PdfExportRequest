@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Njardarlogar"
+		]
+	},
+	"pdfprint": "PDF-eksportering",
+	"pdfprint_error": "PDF-eksportering - Feil",
+	"pdf_fontsize_label": "Skriftstorleik",
+	"pdf_margins_label_top": "topp",
+	"pdf_margins_label_sides": "sider",
+	"pdf_margins_label_bottom": "botn",
+	"pdf_print_link": "Skriv ut som PDF",
+	"pdf_print_text": "Skriv inn tittelen på sida du ynskjer å eksportera som PDF",
+	"pdf_submit": "Lag PDF",
+	"pdf_portrait": "Portrett",
+	"pdf_landscape": "Landskap",
+	"pdf_pass_protect_label": "Passordvern",
+	"pdf_pass_protect_yes": "ja",
+	"pdf_pass_protect_no": "nei",
+	"pdf_owner_pass_label": "Eigarpassord",
+	"pdf_user_pass_label": "Brukarpassord",
+	"pdf_perm_print_label": "Tillat utskrift?",
+	"pdf_perm_print_yes": "ja",
+	"pdf_perm_print_no": "nei",
+	"pdf_perm_modify_label": "Tillat endring?",
+	"pdf_perm_modify_yes": "ja",
+	"pdf_perm_modify_no": "nei",
+	"pdf_perm_copy_label": "Tillat kopiering av tekst?",
+	"pdf_perm_copy_yes": "ja",
+	"pdf_perm_copy_no": "nei",
+	"pdf_perm_annotate_yes": "ja",
+	"pdf_perm_annotate_no": "nei",
+	"pdf_size": "Papirstorleik",
+	"pdf_filename": "Filnamn"
+}

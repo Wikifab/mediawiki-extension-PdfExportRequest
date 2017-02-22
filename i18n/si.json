@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"පසිඳු කාවින්ද"
+		]
+	},
+	"pdfprint": "PDF නිර්යාත කිරීම",
+	"pdfprint_error": "PDF නිර්යාත කිරීම - දෝෂය",
+	"pdf_fontface_label": "අක්ෂරමුහුනත",
+	"pdf_fontsize_label": "අක්ෂරප්‍රමාණය",
+	"pdf_margins_label_top": "ඉහළ",
+	"pdf_margins_label_sides": "පිල්",
+	"pdf_margins_label_bottom": "අඩිය",
+	"pdf_print_link": "PDF ලෙසින් මුද්‍රණය කරන්න",
+	"pdf_submit": "PDF තනන්න",
+	"pdf_portrait": "ආල්ඛ්‍ය තලීය",
+	"pdf_landscape": "භූතල තලීය",
+	"pdf_pass_protect_label": "මුරපද ආරක්ෂණය",
+	"pdf_pass_protect_yes": "ඔව්",
+	"pdf_pass_protect_no": "නැත",
+	"pdf_owner_pass_label": "අයිතිකරුගේ මුරපදය",
+	"pdf_user_pass_label": "ලිපි සාරාංශය",
+	"pdf_perm_print_label": "මුද්‍රණය කිරීමට ඉඩ දෙනවද?",
+	"pdf_perm_print_yes": "ඔව්",
+	"pdf_perm_print_no": "නැත",
+	"pdf_perm_modify_label": "වෙනස් කිරීමට ඉඩ දෙනවද?",
+	"pdf_perm_modify_yes": "ඔව්",
+	"pdf_perm_modify_no": "නැත",
+	"pdf_perm_copy_label": "පාඨ පිටපත් කිරීමට ඉඩ දෙනවද?",
+	"pdf_perm_copy_yes": "ඔව්",
+	"pdf_perm_copy_no": "නැත",
+	"pdf_perm_annotate_label": "විවරණයට ඉඩ දෙනවද?",
+	"pdf_perm_annotate_yes": "ඔව්",
+	"pdf_perm_annotate_no": "නැත",
+	"pdf_size": "පිටු ප්‍රමාණය",
+	"pdf_filename": "ගොනුනාමය"
+}

@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Siebrand"
+		]
+	},
+	"pdfexport-desc": "Geeft uitvoer van een pagina in pdfopmaak",
+	"pdfprint": "Naar pdf exporteren",
+	"pdfprint_error": "Pdfexport - Fout",
+	"pdf_fontface_label": "Lettertype",
+	"pdf_fontsize_label": "Lettergrootte",
+	"pdf_margins_label": "Marges (weergave in millimeters)",
+	"pdf_margins_label_top": "boven",
+	"pdf_margins_label_sides": "zijkanten",
+	"pdf_margins_label_bottom": "onder",
+	"pdf_print_link": "Afdrukken als pdf",
+	"pdf_print_text": "Geef de naam op van de pagina die u als pdf wilt exporteren",
+	"pdf_submit": "Pdf maken",
+	"pdf_portrait": "Portret",
+	"pdf_landscape": "Landschap",
+	"pdf_pass_protect_label": "Wachtwoordbeveiliging",
+	"pdf_pass_protect_yes": "ja",
+	"pdf_pass_protect_no": "nee",
+	"pdf_owner_pass_label": "Wachtwoord eigenaar",
+	"pdf_user_pass_label": "Wachtwoord gebruiker",
+	"pdf_perm_print_label": "Afdrukken toestaan?",
+	"pdf_perm_print_yes": "ja",
+	"pdf_perm_print_no": "nee",
+	"pdf_perm_modify_label": "Wijzigingen toestaan?",
+	"pdf_perm_modify_yes": "ja",
+	"pdf_perm_modify_no": "nee",
+	"pdf_perm_copy_label": "Kopiëren van tekst toestaan?",
+	"pdf_perm_copy_yes": "ja",
+	"pdf_perm_copy_no": "nee",
+	"pdf_perm_annotate_label": "Opmerkingen toevoegen toestaan?",
+	"pdf_perm_annotate_yes": "ja",
+	"pdf_perm_annotate_no": "nee",
+	"pdf_size": "Papierformaat",
+	"pdf_filename": "Bestandsnaam",
+	"pdf_export_no_converter_found": "Er is geen software aangetroffen voor omzetten naar pdf. Installeer PrinceXML, DomPdf of HTMLDoc.",
+	"pdf_prince_error_not_installed": "PrinceXML, de software voor het maken van pdfbestanden, is niet correct geïnstalleerd. Neem contact op met een systeembeheerder.",
+	"pdf_prince_error": "De software voor het maken van pdfbestanden was niet in staat een pdfbestand te maken. Neem contact op met een systeembeheerder als het probleem aanhoudt."
+}

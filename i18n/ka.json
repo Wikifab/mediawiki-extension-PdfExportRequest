@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"David1010"
+		]
+	},
+	"pdfexport-desc": "გარდაქმნის გვერდს PDF ფორმატში",
+	"pdfprint": "PDF-ის ექსპორტი",
+	"pdfprint_error": "PDF-ის ექსპორტი - შეცდომა",
+	"pdf_fontface_label": "შრიფტი",
+	"pdf_fontsize_label": "შრიფტის ზომა",
+	"pdf_margins_label": "ველები (ნაჩვენები მილიმეტრებში)",
+	"pdf_margins_label_top": "ზედა",
+	"pdf_margins_label_sides": "გვერდები",
+	"pdf_margins_label_bottom": "ქვედა",
+	"pdf_print_link": "შენახვა PDF ფორმატში",
+	"pdf_print_text": "შეიყვანეთ გვერდის სათაური რომლის PDF-ში ექსპორტიც გსურთ",
+	"pdf_submit": "PDF-ის შექმნა",
+	"pdf_portrait": "პორტრეტი",
+	"pdf_landscape": "ლანდშაფტი",
+	"pdf_pass_protect_label": "პაროლით დაცვა",
+	"pdf_pass_protect_yes": "დიახ",
+	"pdf_pass_protect_no": "არა",
+	"pdf_owner_pass_label": "მფლობელის პაროლი",
+	"pdf_user_pass_label": "მომხმარებლის პაროლი",
+	"pdf_perm_print_label": "ბეჭდვის ნებართვა?",
+	"pdf_perm_print_yes": "დიახ",
+	"pdf_perm_print_no": "არა",
+	"pdf_perm_modify_label": "შეცვლის ნებართვა?",
+	"pdf_perm_modify_yes": "დიახ",
+	"pdf_perm_modify_no": "არა",
+	"pdf_perm_copy_label": "ტექსტის დაკოპირების ნებართვა?",
+	"pdf_perm_copy_yes": "დიახ",
+	"pdf_perm_copy_no": "არა",
+	"pdf_perm_annotate_label": "ანოტაციის ნებართვა?",
+	"pdf_perm_annotate_yes": "დიახ",
+	"pdf_perm_annotate_no": "არა",
+	"pdf_size": "ქაღალდის ზომა",
+	"pdf_filename": "ფაილის სახელი"
+}

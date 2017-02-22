@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Michawiki"
+		]
+	},
+	"pdfexport-desc": "Zmóžnja wudawanje strony jako PDF",
+	"pdfprint": "PDF-eksport",
+	"pdfprint_error": "PDF-eksport - zmylk",
+	"pdf_fontface_label": "Družina pisma",
+	"pdf_fontsize_label": "Wulkosć pisma",
+	"pdf_margins_label": "Kromy (w milimetrach)",
+	"pdf_margins_label_top": "horjeka",
+	"pdf_margins_label_sides": "boki",
+	"pdf_margins_label_bottom": "deleka",
+	"pdf_print_link": "Jako PDF ćišćeć",
+	"pdf_print_text": "Zapodaj titul strony, kotruž chceš jako PDF wudać",
+	"pdf_submit": "Jako PDF wudać",
+	"pdf_portrait": "Wysoki format",
+	"pdf_landscape": "Prěčny format",
+	"pdf_pass_protect_label": "Hesłowy škit",
+	"pdf_pass_protect_yes": "haj",
+	"pdf_pass_protect_no": "ně",
+	"pdf_owner_pass_label": "Hesło wobsedźerja",
+	"pdf_user_pass_label": "Wužiwarske hesło",
+	"pdf_perm_print_label": "Ćišćenje dowolić?",
+	"pdf_perm_print_yes": "haj",
+	"pdf_perm_print_no": "ně",
+	"pdf_perm_modify_label": "Změny dowolić?",
+	"pdf_perm_modify_yes": "haj",
+	"pdf_perm_modify_no": "ně",
+	"pdf_perm_copy_label": "Kopěrowanje teksta dowolić?",
+	"pdf_perm_copy_yes": "haj",
+	"pdf_perm_copy_no": "ně",
+	"pdf_perm_annotate_label": "Komentary dowolić?",
+	"pdf_perm_annotate_yes": "haj",
+	"pdf_perm_annotate_no": "ně",
+	"pdf_size": "Papjerowy format",
+	"pdf_filename": "Datajowe mjeno",
+	"pdf_export_no_converter_found": "Softwara za PDF-konwertowanje njeje so namakała. Prošu instaluj pak PrinceXML, DomPdf pak HTMLDoc.",
+	"pdf_prince_error_not_installed": "Softwara PrinceXML za wutworjenje PDF-datajow njeje so prawje instalowała. Prošu staj so z administratorom do zwiska.",
+	"pdf_prince_error": "Softwara za wutworjenje PDF-datajow njemóže PDF-dataje wutworić. Jeli tutón problem dale eksistuje, staj so z administratorom do zwiska."
+}

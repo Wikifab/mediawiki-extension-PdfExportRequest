@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"pdfexport-desc": "Rende un pagina in formato PDF",
+	"pdfprint": "Exportation in RDF",
+	"pdfprint_error": "Exportation in PDF – Error",
+	"pdf_fontface_label": "Typo de litteras",
+	"pdf_fontsize_label": "Dimension de litteras",
+	"pdf_margins_label": "Margines (in millimetros)",
+	"pdf_margins_label_top": "superior",
+	"pdf_margins_label_sides": "lateral",
+	"pdf_margins_label_bottom": "inferior",
+	"pdf_print_link": "Imprimer in un file PDF",
+	"pdf_print_text": "Specifica le titulo del pagina que tu vole exportar in formato PDF",
+	"pdf_submit": "Facer PDF",
+	"pdf_portrait": "Portrait",
+	"pdf_landscape": "Paisage",
+	"pdf_pass_protect_label": "Protection per contrasigno",
+	"pdf_pass_protect_yes": "si",
+	"pdf_pass_protect_no": "no",
+	"pdf_owner_pass_label": "Contrasigno del proprietario",
+	"pdf_user_pass_label": "Contrasigno del usator",
+	"pdf_perm_print_label": "Permitter impression?",
+	"pdf_perm_print_yes": "si",
+	"pdf_perm_print_no": "no",
+	"pdf_perm_modify_label": "Permitter modification?",
+	"pdf_perm_modify_yes": "si",
+	"pdf_perm_modify_no": "no",
+	"pdf_perm_copy_label": "Permitter de copiar texto?",
+	"pdf_perm_copy_yes": "si",
+	"pdf_perm_copy_no": "no",
+	"pdf_perm_annotate_label": "Permitter annotation?",
+	"pdf_perm_annotate_yes": "si",
+	"pdf_perm_annotate_no": "no",
+	"pdf_size": "Formato del papiro",
+	"pdf_filename": "Nomine del file",
+	"pdf_export_no_converter_found": "Nulle software pro le conversion in PDF ha essite trovate. Per favor installa PrinceXML, DomPdf o HTMLDoc.",
+	"pdf_prince_error_not_installed": "Le software de creation de PDF PrinceXML non es installate correctemente. Per favor contacta un administrator.",
+	"pdf_prince_error": "Le software de creation de PDF non ha potite crear le PDF. Si le problema persiste, per favor contacta un administrator."
+}
