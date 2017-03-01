@@ -34,7 +34,7 @@ class PdfExportRequestHooks {
 	 */
 	public static function onUnknownAction( $action, $article ) {
 		global $wgOut, $wgUser, $wgRequest, $wgPdfExportRequestDownload;
-		global $wgUploadDirectory;
+		global $wgUploadDirectory, $wgPdfExportErrorLog;
 
 		if( $action == 'pdfexport' ) {
 			$title = $article->getTitle();
@@ -59,7 +59,7 @@ class PdfExportRequestHooks {
 			}
 			// generate file if cache file not valid
 			if( ! file_exists($cacheFile) || $needReload) {
-				self::convertToPdfWithWkhtmltopdf($title->getFullURL(), $cacheFile, $options);
+				$convertResult = self::convertToPdfWithWkhtmltopdf($title->getFullURL(), $cacheFile, $options);
 			}
 
 			if(file_exists($cacheFile)) {
@@ -71,6 +71,10 @@ class PdfExportRequestHooks {
 					header( "Content-Disposition: inline; filename=\"$filename.pdf\"" );
 				}
 				readfile( $cacheFile );
+			} else if ($wgPdfExportErrorLog) {
+				wfErrorLog( "Error in PDF generation for $filename", $wgPdfExportErrorLog );
+				wfErrorLog( "Error cmd " . $convertResult['cmd'], $wgPdfExportErrorLog );
+				wfErrorLog( "Error result " . $convertResult['output'], $wgPdfExportErrorLog );
 			}
 
 			return false;
@@ -110,6 +114,7 @@ class PdfExportRequestHooks {
 
 		// Execute the command outputting to the cache file
 		exec( "$cmd", $output, $result );
+		return array('cmd' => $cmd, 'output' => $output,'result' => $result);
 	}
 
 
