@@ -42,7 +42,11 @@ class PdfExportRequestHooks {
 
 			$options = self::getOptions();
 
-			$cacheFile = $wgUploadDirectory . '/pdfexport-cache-' . md5( $title->getFullURL() );
+			$exportDir = $wgUploadDirectory . '/pdfexport';
+			if (!file_exists($exportDir)) {
+				mkdir($exportDir, 0777, true);
+			}
+			$cacheFile = $exportDir . '/cache-' . md5( $title->getFullURL() );
 
 			// check cache File
 			$needReload = true;
@@ -75,12 +79,17 @@ class PdfExportRequestHooks {
 	}
 
 	private static function getOptions() {
-		return [
+		global $wgPdfExportRequestWkhtmltopdfParams;
+		$opt = [
 				'left' => 10,
 				'right' => 10,
 				'top' => 10,
 				'bottom' => 10
 		];
+		if ($wgPdfExportRequestWkhtmltopdfParams) {
+			$opt['customsparams'] = $wgPdfExportRequestWkhtmltopdfParams;
+		}
+		return $opt;
 	}
 
 
@@ -93,6 +102,9 @@ class PdfExportRequestHooks {
 		// this do not work with current version of wkhtmltopdf
 		//$cmd  = "$cmd --footer-right \"Page [page] / [toPage]\"";
 
+		if (isset($options['customsparams'])) {
+			$cmd  = "$cmd {$options['customsparams']}";
+		}
 		// Build the htmldoc command
 		$cmd  = "xvfb-run /usr/bin/wkhtmltopdf $cmd \"$htmlFile\" \"$outputFile\"";
 

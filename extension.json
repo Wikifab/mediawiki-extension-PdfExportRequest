@@ -9,7 +9,8 @@
 	"callback": "PdfExportRequestHooks::onRegistration",
 	"config": {
 		"PdfExportRequestTab": true,           "@": "Whether or not an action tab is wanted for printing to PDF",
-		"PdfExportRequestDownload": true,       "@": "Whether the files should be downloaded or view in-browser"
+		"PdfExportRequestDownload": true,       "@": "Whether the files should be downloaded or view in-browser",
+		"PdfExportRequestWkhtmltopdfParams": ""
 	},
 	"Hooks": {
 		"ParserFirstCallInit": ["PdfExportRequestHooks::parserInit"],
