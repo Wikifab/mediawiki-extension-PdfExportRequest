@@ -11,40 +11,63 @@ class PdfExportRequestHooks {
 	}
 
 	/**
+	 * Parser function to insert a link to pdf.
+	 */
+	public static function parserInit( $parser ) {
+		$parser->setFunctionHook( 'pdfExportButton', array('PdfExportRequestHooks', 'addButtonParser' ));
+		return true;
+	}
+
+
+
+	public static function addButtonParser( $input, $type = 'top', $number = 4 ) {
+
+		$out = '<button class="pdfExportButton">';
+		$out .= '</button>';
+
+
+		return array( $out, 'noparse' => true, 'isHTML' => true );
+	}
+
+	/**
 	 * Perform the export operation
 	 */
 	public static function onUnknownAction( $action, $article ) {
-		global $wgOut, $wgUser, $wgParser, $wgRequest, $wgAjaxComments, $wgPdfBookDownload;
-		global $wgServer, $wgArticlePath, $wgScriptPath, $wgUploadPath, $wgUploadDirectory, $wgScript;
+		global $wgOut, $wgUser, $wgRequest, $wgPdfExportRequestDownload;
+		global $wgUploadDirectory;
 
 		if( $action == 'pdfexport' ) {
 			$title = $article->getTitle();
-			$book = $title->getText();
-			$opt = ParserOptions::newFromUser( $wgUser );
-
-			// Log the export
-			$msg = wfMessage( 'pdfbook-log', $wgUser->getUserPage()->getPrefixedText() )->text();
-			$log = new LogPage( 'pdf', false );
-			$log->addEntry( 'book', $article->getTitle(), $msg );
+			$filename = 'Wikifab-' . $title->getText();
 
 			$options = self::getOptions();
 
-			$tmpFile = $wgUploadDirectory . '/pdfexport-tmp-' . md5( $title->getFullURL() );
 			$cacheFile = $wgUploadDirectory . '/pdfexport-cache-' . md5( $title->getFullURL() );
 
-			self::convertToPdfWithWkhtmltopdf($title->getFullURL(), $cacheFile, $options);
-
-			$book = 'Tutoriel';
-
-			$wgOut->disable();
-			header( "Content-Type: application/pdf" );
-			if( $wgPdfBookDownload ) {
-				header( "Content-Disposition: attachment; filename=\"$book.pdf\"" );
-			} else {
-				header( "Content-Disposition: inline; filename=\"$book.pdf\"" );
+			// check cache File
+			$needReload = true;
+			if (file_exists($cacheFile)) {
+				// last edit timestamp :
+				$timestamp = $article->getTimestamp();
+				// cacheFile timestamp :
+				$fileTimeStamp = date ("YmdHis", filemtime($cacheFile));
+				$needReload = $timestamp > $fileTimeStamp;
+			}
+			// generate file if cache file not valid
+			if( ! file_exists($cacheFile) || $needReload) {
+				self::convertToPdfWithWkhtmltopdf($title->getFullURL(), $cacheFile, $options);
 			}
 
-			readfile( $cacheFile );
+			if(file_exists($cacheFile)) {
+				$wgOut->disable();
+				header( "Content-Type: application/pdf" );
+				if( $wgPdfExportRequestDownload ) {
+					header( "Content-Disposition: attachment; filename=\"$filename.pdf\"" );
+				} else {
+					header( "Content-Disposition: inline; filename=\"$filename.pdf\"" );
+				}
+				readfile( $cacheFile );
+			}
 
 			return false;
 		}
@@ -64,23 +87,17 @@ class PdfExportRequestHooks {
 
 	private static function convertToPdfWithWkhtmltopdf($htmlFile, $outputFile, $options) {
 
-		// big fake :
 		// call wkhtmltopdf with url of the page (will do https requests to get the page)
-
 		$cmd  = "-L {$options['left']} -R {$options['right']} -T {$options['top']} -B {$options['bottom']}";
 
-
-		// this do not work ?
-		$cmd  = "$cmd --footer-right \"Page [page] / [toPage]\"";
+		// this do not work with current version of wkhtmltopdf
+		//$cmd  = "$cmd --footer-right \"Page [page] / [toPage]\"";
 
 		// Build the htmldoc command
 		$cmd  = "xvfb-run /usr/bin/wkhtmltopdf $cmd \"$htmlFile\" \"$outputFile\"";
 
-		var_dump($cmd);die();
-
 		// Execute the command outputting to the cache file
 		exec( "$cmd", $output, $result );
-
 	}
 
 
@@ -99,12 +116,13 @@ class PdfExportRequestHooks {
 	 * Add PDF to actions tabs in MonoBook based skins
 	 */
 	public static function onSkinTemplateTabs( $skin, &$actions) {
-		global $wgPdfBookTab, $wgUser;
-		if( $wgPdfBookTab && $wgUser->isLoggedIn() ) {
-			$actions['pdfbook'] = array(
-				'class' => false,
-				'text' => wfMessage( 'pdfbook-action' )->text(),
-				'href' => self::actionLink( $skin )
+		global $wgPdfExportRequestTab;
+
+		if($wgPdfExportRequestTab) {
+			$actions['views']['pdfexport'] = array(
+					'class' => false,
+					'text' => wfMessage( 'pdfexportrequest-print' )->text(),
+					'href' => self::actionLink( $skin )
 			);
 		}
 		return true;
@@ -114,11 +132,12 @@ class PdfExportRequestHooks {
 	 * Add PDF to actions tabs in vector based skins
 	 */
 	public static function onSkinTemplateNavigation( $skin, &$actions ) {
-		global $wgPdfBookTab, $wgUser;
-		if( $wgPdfBookTab && $wgUser->isLoggedIn() ) {
-			$actions['views']['pdfbook'] = array(
+		global $wgPdfExportRequestTab;
+
+		if($wgPdfExportRequestTab) {
+			$actions['views']['pdfexport'] = array(
 				'class' => false,
-				'text' => wfMessage( 'pdfbook-action' )->text(),
+				'text' => wfMessage( 'pdfexportrequest-print' )->text(),
 				'href' => self::actionLink( $skin )
 			);
 		}

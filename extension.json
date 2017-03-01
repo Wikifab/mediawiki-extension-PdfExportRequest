@@ -8,16 +8,20 @@
 	"type": "parserhook",
 	"callback": "PdfExportRequestHooks::onRegistration",
 	"config": {
-		"wgPdfExportRequestTab": false,           "@": "Whether or not an action tab is wanted for printing to PDF",
-		"wgPdfExportRequestDownload": true,       "@": "Whether the files should be downloaded or view in-browser"
+		"PdfExportRequestTab": true,           "@": "Whether or not an action tab is wanted for printing to PDF",
+		"PdfExportRequestDownload": true,       "@": "Whether the files should be downloaded or view in-browser"
 	},
 	"Hooks": {
+		"ParserFirstCallInit": ["PdfExportRequestHooks::parserInit"],
 		"UnknownAction": ["PdfExportRequestHooks::onUnknownAction"],
 		"SkinTemplateTabs": ["PdfExportRequestHooks::onSkinTemplateTabs"],
 		"SkinTemplateNavigation": ["PdfExportRequestHooks::onSkinTemplateNavigation"]
 	},
 	"AutoloadClasses": {
 		"PdfExportRequestHooks": "PdfExportRequest.hooks.php"
+	},
+	"ExtensionMessagesFiles": {
+		"PdfExportRequestHooksMagic": "PdfExportRequest.i18n.php"
 	},
 	"MessagesDirs": {
 		"PdfExportRequestHooks": ["i18n"]
