@@ -84,6 +84,7 @@ class PdfExportRequestHooks {
 
 	private static function getOptions() {
 		global $wgPdfExportRequestWkhtmltopdfParams;
+		global $wgPdfExportRequestHeaderFile, $wgPdfExportRequestFooterFile;
 		$opt = [
 				'left' => 10,
 				'right' => 10,
@@ -92,6 +93,12 @@ class PdfExportRequestHooks {
 		];
 		if ($wgPdfExportRequestWkhtmltopdfParams) {
 			$opt['customsparams'] = $wgPdfExportRequestWkhtmltopdfParams;
+		}
+		if ($wgPdfExportRequestHeaderFile) {
+			$opt['header-html'] = $wgPdfExportRequestHeaderFile;
+		}
+		if ($wgPdfExportRequestFooterFile) {
+			$opt['footer-html'] = $wgPdfExportRequestFooterFile;
 		}
 		return $opt;
 	}
@@ -105,9 +112,19 @@ class PdfExportRequestHooks {
 
 		// this do not work with current version of wkhtmltopdf
 		//$cmd  = "$cmd --footer-right \"Page [page] / [toPage]\"";
+		//$headerFile = dirname(__FILE__) . '/templates/header.html';
+		//$footerFile = dirname(__FILE__) . '/templates/footer.html';
+		//$cmd  = "$cmd --header-html \"$headerFile\" ";
+		//$cmd  = "$cmd --footer-html \"$footerFile\" ";
 
 		if (isset($options['customsparams'])) {
 			$cmd  = "$cmd {$options['customsparams']}";
+		}
+		if (isset($options['header-html'])) {
+			$cmd  = "$cmd --header-html {$options['header-html']}";
+		}
+		if (isset($options['footer-html'])) {
+			$cmd  = "$cmd --footer-html {$options['footer-html']}";
 		}
 		// Build the htmldoc command
 		$cmd  = "xvfb-run /usr/bin/wkhtmltopdf $cmd \"$htmlFile\" \"$outputFile\"";

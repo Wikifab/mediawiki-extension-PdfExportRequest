@@ -10,7 +10,9 @@
 	"config": {
 		"PdfExportRequestTab": true,           "@": "Whether or not an action tab is wanted for printing to PDF",
 		"PdfExportRequestDownload": true,       "@": "Whether the files should be downloaded or view in-browser",
-		"PdfExportRequestWkhtmltopdfParams": ""
+		"PdfExportRequestWkhtmltopdfParams": "--print-media-type ",
+		"PdfExportRequestHeaderFile":"",
+		"PdfExportRequestFooterFile":""
 	},
 	"Hooks": {
 		"ParserFirstCallInit": ["PdfExportRequestHooks::parserInit"],
