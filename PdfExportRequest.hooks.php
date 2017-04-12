@@ -85,6 +85,10 @@ class PdfExportRequestHooks {
 	private static function getOptions() {
 		global $wgPdfExportRequestWkhtmltopdfParams;
 		global $wgPdfExportRequestHeaderFile, $wgPdfExportRequestFooterFile;
+
+		if ( $wgPdfExportRequestFooterFile == 'default') {
+			$wgPdfExportRequestFooterFile = __DIR__ . '/templates/footer.html';
+		}
 		$opt = [
 				'left' => 10,
 				'right' => 10,
