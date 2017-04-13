@@ -112,7 +112,7 @@ class PdfExportRequestHooks {
 	private static function convertToPdfWithWkhtmltopdf($htmlFile, $outputFile, $options) {
 
 		// call wkhtmltopdf with url of the page (will do https requests to get the page)
-		$cmd  = "-L {$options['left']} -R {$options['right']} -T {$options['top']} -B {$options['bottom']}";
+		$cmd  = "-L {$options['left']} -R {$options['right']} -T {$options['top']} -B {$options['bottom']} --print-media-type ";
 
 		// this do not work with current version of wkhtmltopdf
 		//$cmd  = "$cmd --footer-right \"Page [page] / [toPage]\"";
