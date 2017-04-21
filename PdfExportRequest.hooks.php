@@ -131,7 +131,7 @@ class PdfExportRequestHooks {
 			$cmd  = "$cmd --footer-html {$options['footer-html']}";
 		}
 		// Build the htmldoc command
-		$cmd  = "xvfb-run /usr/bin/wkhtmltopdf $cmd \"$htmlFile\" \"$outputFile\"";
+		$cmd  = "xvfb-run /usr/bin/wkhtmltopdf --javascript-delay 2000 $cmd \"$htmlFile\" \"$outputFile\"";
 
 		// Execute the command outputting to the cache file
 		exec( "$cmd", $output, $result );
