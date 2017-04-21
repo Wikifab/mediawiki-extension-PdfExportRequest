@@ -187,7 +187,9 @@ class PdfExportRequestHooks {
 	 */
 	public static function actionLink( $skin ) {
 		$qs = 'action=pdfexport&format=single';
-		foreach( $_REQUEST as $k => $v ) if( $k != 'title' ) $qs .= "&$k=$v";
+		// removed to avoir Notice: Array to string conversion in /var/www/preprod.wikifab.org/extensions/PdfExportRequest/PdfExportRequest.hooks.php on line 190
+		// Be should be added back to be able to print pdf of older versions
+		//foreach( $_REQUEST as $k => $v ) if( $k != 'title' ) $qs .= "&$k=$v";
 		return $skin->getTitle()->getLocalURL( $qs );
 	}
 }
