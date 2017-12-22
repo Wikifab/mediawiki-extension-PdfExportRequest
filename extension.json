@@ -28,5 +28,6 @@
 	},
 	"MessagesDirs": {
 		"PdfExportRequestHooks": ["i18n"]
-	}
+	},
+	"manifest_version":1
 }
