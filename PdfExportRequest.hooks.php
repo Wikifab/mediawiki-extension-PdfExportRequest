@@ -84,6 +84,7 @@ class PdfExportRequestHooks {
 
 	private static function getOptions() {
 		global $wgPdfExportRequestWkhtmltopdfParams;
+		global $wgPdfExportRequestWkhtmltopdfReplaceHostname;
 		global $wgPdfExportRequestHeaderFile, $wgPdfExportRequestFooterFile;
 
 		if ( $wgPdfExportRequestFooterFile == 'default') {
@@ -95,6 +96,9 @@ class PdfExportRequestHooks {
 				'top' => 10,
 				'bottom' => 10
 		];
+		if ($wgPdfExportRequestWkhtmltopdfReplaceHostname) {
+			$opt['replaceHostname'] = $wgPdfExportRequestWkhtmltopdfReplaceHostname;
+		}
 		if ($wgPdfExportRequestWkhtmltopdfParams) {
 			$opt['customsparams'] = $wgPdfExportRequestWkhtmltopdfParams;
 		}
@@ -110,6 +114,8 @@ class PdfExportRequestHooks {
 
 
 	private static function convertToPdfWithWkhtmltopdf($htmlFile, $outputFile, $options) {
+
+		global $wgServer;
 
 		// call wkhtmltopdf with url of the page (will do https requests to get the page)
 		$cmd  = "-L {$options['left']} -R {$options['right']} -T {$options['top']} -B {$options['bottom']} --print-media-type ";
@@ -129,6 +135,9 @@ class PdfExportRequestHooks {
 		}
 		if (isset($options['footer-html'])) {
 			$cmd  = "$cmd --footer-html {$options['footer-html']}";
+		}
+		if (isset($options['replaceHostname'])) {
+			$htmlFile = str_replace($wgServer, $options['replaceHostname'], $htmlFile);
 		}
 		// Build the htmldoc command
 		$cmd  = "xvfb-run /usr/bin/wkhtmltopdf --javascript-delay 2000 $cmd \"$htmlFile\" \"$outputFile\"";

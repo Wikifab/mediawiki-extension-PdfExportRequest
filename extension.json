@@ -12,7 +12,8 @@
 		"PdfExportRequestDownload": true,       "@": "Whether the files should be downloaded or view in-browser",
 		"PdfExportRequestWkhtmltopdfParams": "--print-media-type ",
 		"PdfExportRequestHeaderFile":"",
-		"PdfExportRequestFooterFile":"default"
+		"PdfExportRequestFooterFile":"default",
+		"PdfExportRequestWkhtmltopdfReplaceHostname":false
 	},
 	"Hooks": {
 		"ParserFirstCallInit": ["PdfExportRequestHooks::parserInit"],
