@@ -17,3 +17,11 @@ wget http://download.gna.org/wkhtmltopdf/0.12/0.12.3/wkhtmltox-0.12.3_linux-gene
 cd /opt/
 sudo tar xf /tmp/wkhtmltox-0.12.3_linux-generic-amd64.tar.xz
 sudo ln -s /opt/wkhtmltox/bin/wkhtmltopdf /usr/bin/wkhtmltopdf
+
+## Configuration
+
+### prefixe des fichiers exportés
+
+Il est possible de modifier le prefixe du nom des fichier exporté, en le définissant variable $wfPdfExportPrefix dans la fichier Localsettings.php : (par défault, c'est le nom du wiki)
+
+$wfPdfExportPrefix = $wgSitename;
