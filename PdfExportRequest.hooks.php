@@ -35,10 +35,15 @@ class PdfExportRequestHooks {
 	public static function onUnknownAction( $action, $article ) {
 		global $wgOut, $wgUser, $wgRequest, $wgPdfExportRequestDownload;
 		global $wgUploadDirectory, $wgPdfExportErrorLog;
+		global $wfPdfExportPrefix, $wgSitename;
+
+		if( ! isset($wfPdfExportPrefix)) {
+			$wfPdfExportPrefix = $wgSitename;
+		}
 
 		if( $action == 'pdfexport' ) {
 			$title = $article->getTitle();
-			$filename = 'Wikifab-' . $title->getText();
+			$filename = $wfPdfExportPrefix . '-' . $title->getText();
 
 			$options = self::getOptions();
 
