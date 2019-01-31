@@ -30,5 +30,8 @@
 	"MessagesDirs": {
 		"PdfExportRequestHooks": ["i18n"]
 	},
+	"AvailableRights": [
+		"exportpdf"
+	],
 	"manifest_version":1
 }
