@@ -170,13 +170,16 @@ class PdfExportRequestHooks {
 	public static function onSkinTemplateTabs( $skin, &$actions) {
 		global $wgPdfExportRequestTab;
 
-		if($wgPdfExportRequestTab) {
+		$user = $skin->getUser();
+
+		if($wgPdfExportRequestTab && $user->isAllowed( 'exportpdf' )) {
 			$actions['views']['pdfexport'] = array(
 					'class' => false,
 					'text' => wfMessage( 'pdfexportrequest-print' )->text(),
 					'href' => self::actionLink( $skin )
 			);
 		}
+
 		return true;
 	}
 
@@ -186,7 +189,9 @@ class PdfExportRequestHooks {
 	public static function onSkinTemplateNavigation( $skin, &$actions ) {
 		global $wgPdfExportRequestTab;
 
-		if($wgPdfExportRequestTab) {
+		$user = $skin->getUser();
+
+		if($wgPdfExportRequestTab && $user->isAllowed( 'exportpdf' )) {
 			$actions['views']['pdfexport'] = array(
 				'class' => false,
 				'text' => wfMessage( 'pdfexportrequest-print' )->text(),
