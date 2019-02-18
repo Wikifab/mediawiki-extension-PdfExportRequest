@@ -42,6 +42,11 @@ class PdfExportRequestHooks {
 		}
 
 		if( $action == 'pdfexport' ) {
+
+			if (!$wgUser->isAllowed('exportpdf')) {
+                throw new PermissionsError( 'exportpdf' );
+            }
+
 			$title = $article->getTitle();
 			$filename = $wfPdfExportPrefix . '-' . $title->getText();
 
