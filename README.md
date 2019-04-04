@@ -25,3 +25,15 @@ sudo ln -s /opt/wkhtmltox/bin/wkhtmltopdf /usr/bin/wkhtmltopdf
 Il est possible de modifier le prefixe du nom des fichier exporté, en le définissant variable $wfPdfExportPrefix dans la fichier Localsettings.php : (par défault, c'est le nom du wiki)
 
 $wfPdfExportPrefix = $wgSitename;
+
+### wkHtmlToPdf command
+
+You can change the command used to generate pdf in File Localsettings.php by settings this variable : 
+  $wgPberWkhtmlToPdfExec 
+
+default value is : 
+  $wgPberWkhtmlToPdfExec  = "xvfb-run /usr/bin/wkhtmltopdf"
+  
+Alternate value can be : 
+  $wgPberWkhtmlToPdfExec = "/usr/bin/wkhtmltopdf.sh --load-error-handling ignore --encoding 'utf-8'";
+  

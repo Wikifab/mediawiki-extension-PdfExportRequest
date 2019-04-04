@@ -125,7 +125,13 @@ class PdfExportRequestHooks {
 
 	private static function convertToPdfWithWkhtmltopdf($htmlFile, $outputFile, $options) {
 
-		global $wgServer;
+		global $wgServer, $wgPberWkhtmlToPdfExec;
+
+		if (! isset($wgPberWkhtmlToPdfExec)) {
+			$wkHtmlExec = "xvfb-run /usr/bin/wkhtmltopdf";
+		} else {
+			$wkHtmlExec = $wgPberWkhtmlToPdfExec;
+		}
 
 		// call wkhtmltopdf with url of the page (will do https requests to get the page)
 		$cmd  = "-L {$options['left']} -R {$options['right']} -T {$options['top']} -B {$options['bottom']} --print-media-type ";
@@ -150,7 +156,7 @@ class PdfExportRequestHooks {
 			$htmlFile = str_replace($wgServer, $options['replaceHostname'], $htmlFile);
 		}
 		// Build the htmldoc command
-		$cmd  = "xvfb-run /usr/bin/wkhtmltopdf --javascript-delay 2000 $cmd \"$htmlFile\" \"$outputFile\"";
+		$cmd  = "$wkHtmlExec --javascript-delay 2000 $cmd \"$htmlFile\" \"$outputFile\"";
 
 		// Execute the command outputting to the cache file
 		exec( "$cmd", $output, $result );
