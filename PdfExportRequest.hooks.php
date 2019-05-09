@@ -62,9 +62,9 @@ class PdfExportRequestHooks {
 			$needReload = true;
 			if (file_exists($cacheFile)) {
 				// last edit timestamp :
-				$timestamp = $article->getTimestamp();
-				// cacheFile timestamp :
-				$fileTimeStamp = date ("YmdHis", filemtime($cacheFile));
+				$timestamp = wfTimestamp( TS_MW, $article->getTimestamp());
+				// cacheFile timestamp : (must be in same format as $article->getTimestamp())
+				$fileTimeStamp = wfTimestamp( TS_MW, filemtime($cacheFile) );
 				$needReload = $timestamp > $fileTimeStamp;
 			}
 			// generate file if cache file not valid
