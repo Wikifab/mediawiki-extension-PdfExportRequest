@@ -50,13 +50,18 @@ class PdfExportRequestHooks {
 			$title = $article->getTitle();
 			$filename = $wfPdfExportPrefix . '-' . $title->getText();
 
+			$lang = $wgOut->getLanguage()->getCode();
+
 			$options = self::getOptions();
 
 			$exportDir = $wgUploadDirectory . '/pdfexport';
 			if (!file_exists($exportDir)) {
 				mkdir($exportDir, 0777, true);
 			}
-			$cacheFile = $exportDir . '/cache-' . md5( $title->getFullURL() );
+
+			$urlToExport = $title->getFullURL(['uselang' => $lang]);
+
+			$cacheFile = $exportDir . '/cache-' . md5( $urlToExport );
 
 			// check cache File
 			$needReload = true;
@@ -69,7 +74,7 @@ class PdfExportRequestHooks {
 			}
 			// generate file if cache file not valid
 			if( ! file_exists($cacheFile) || $needReload) {
-				$convertResult = self::convertToPdfWithWkhtmltopdf($title->getFullURL(), $cacheFile, $options);
+			    $convertResult = self::convertToPdfWithWkhtmltopdf($urlToExport, $cacheFile, $options);
 			}
 
 			if(file_exists($cacheFile)) {
